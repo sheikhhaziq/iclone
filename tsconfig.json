@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "NodeNext",        // Or "ESNext"
+    "moduleResolution": "NodeNext", // Or "Bundler" if using a bundler                              /* Specify what module code is generated. */
+    "rootDir": "./src","esModuleInterop": true,                        /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}
