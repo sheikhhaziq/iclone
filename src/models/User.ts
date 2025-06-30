@@ -1,7 +1,6 @@
 import mongoose, { Document, Schema, Types } from "mongoose";
 import bcrypt from "bcryptjs";
 
-// TypeScript interface
 export interface IUser extends Document {
     _id: Types.ObjectId;
     userName: string;
@@ -16,7 +15,6 @@ export interface IUser extends Document {
     updatedAt: Date;
 }
 
-// Mongoose schema
 const userSchema = new Schema<IUser>(
     {
         userName: {
